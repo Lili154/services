@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+    color:rgb(58, 47, 47);
+    margin-top: 8%;
+}
+h1:hover{
+    color: rgb(4, 5, 5);
+    transform: scale(1.1);
+    transition: 3s;
+}
+.names{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.names>div{
+
+    height: 230px;
+    width: 230px;
+}
+.names>div>img{
+    border:20px solid rgb(58, 47, 47);
+    height: 230px;
+    width: 230px;
+}
+img:hover{
+    opacity: 0.7;
+    transform: scale(1.1) rotate(3deg)
+}
+.names>div>a>h3{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(58, 47, 47);
+}
+a{
+    text-decoration: none;
+}
+.names>div>a>h3:hover{
+    color: rgb(4, 5, 5);
+    transform: scale(1.1);
+    transition: 3s;
+}
